@@ -1,38 +1,30 @@
+---
+name: Meme Hunter Pro
+description: AI trading skill powered by onchainOS for discovering meme opportunities
+version: 1.0
+author: Mukidi Labs
+tools:
+  - onchainOS
+
+trigger_keywords:
+  - trending meme
+  - smart money buy
+  - low cap meme
+  - meme under 10M
+  - hot Solana meme
+
+output_format:
+  - Token
+  - Chain
+  - Market Cap
+  - Volume
+  - Holders
+  - Risk
+  - Reason
+  - Suggested Action
+---
+
 # Meme Hunter Pro
 
 Purpose:
-Find meme opportunities using onchainOS trading data.
-
-Instructions:
-
-1. Search trending meme tokens
-2. Filter:
-- market cap 1M–10M
-- holders >1000
-- volume active
-- smart money buying
-- liquidity >100k
-
-Output format:
-
-Token:
-Chain:
-Market Cap:
-Volume:
-Holder count:
-Risk:
-Reason:
-Suggested action:
-
-Examples:
-
-User:
-Find low cap meme on Solana
-
-Output:
-Token: XYZ
-Market cap: 4.2M
-Volume: High
-Risk: Medium
-Reason: Smart money accumulation
-Action: Watch breakout
+Find meme opportunities using onchainOS as primary data source.
