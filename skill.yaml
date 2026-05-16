@@ -1,0 +1,16 @@
+name: Meme Hunter Pro
+description: Detect trending meme opportunities using onchainOS
+version: 1.0
+
+triggers:
+  - find meme coin
+  - trending meme
+  - hot solana meme
+  - smart money buy
+  - low cap meme
+  - best meme today
+
+tools:
+  - onchainOS
+
+author: Mukidi Labs
