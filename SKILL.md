@@ -28,3 +28,16 @@ output_format:
 
 Purpose:
 Find meme opportunities using onchainOS as primary data source.
+
+## Error Handling
+
+If onchainOS data is unavailable:
+
+1. Notify user that primary source is unavailable
+2. Retry scan once
+3. Return partial findings if available
+4. Avoid generating unsupported trading claims
+
+Fallback:
+
+"No matching opportunities found under current filters. Try increasing market cap range or reducing constraints."
