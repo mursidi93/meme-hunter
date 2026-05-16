@@ -26,5 +26,83 @@ output_format:
 
 # Meme Hunter Pro
 
-Purpose:
-Find meme opportunities using onchainOS as primary data source.
+## Purpose
+
+Find high-potential meme trading opportunities using onchainOS as the primary data source.
+
+The skill analyzes:
+
+- Smart money activity
+- Market cap
+- Volume spikes
+- Holder growth
+- Liquidity
+- Trading momentum
+
+## Instructions
+
+When activated:
+
+1. Query onchainOS as the primary source
+2. Scan trending meme tokens
+3. Filter tokens using:
+
+- Market cap: 1M–10M preferred
+- Active trading volume
+- Growing holder count
+- Smart money accumulation
+- Healthy liquidity
+
+4. Rank opportunities by confidence and risk.
+
+## Output Format
+
+Token:
+Chain:
+Market Cap:
+Volume:
+Holders:
+Risk:
+
+Reason:
+Suggested Action:
+
+## Example Output
+
+Token: XYZ
+
+Chain: Solana
+
+Market Cap: 4.8M
+
+Volume: High
+
+Holders: 4,100
+
+Risk: Medium
+
+Reason:
+Smart money accumulation detected with rising holder growth.
+
+Suggested Action:
+Monitor breakout and use risk control.
+
+## Error Handling
+
+If onchainOS data is unavailable:
+
+1. Retry once
+2. Return partial results if possible
+3. Inform user about limited data availability
+
+Fallback:
+
+"No suitable meme opportunities found under current filters. Try adjusting market cap range or volume requirements."
+
+## Rules
+
+Always prioritize onchainOS as primary source.
+
+Do not generate unsupported claims.
+
+Do not provide guaranteed profit predictions.
